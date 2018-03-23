@@ -17,8 +17,8 @@ a{color:#ea3340;text-decoration:none;outline:none;transition:all 0.3s; -webkit-t
 
 @font-face{
     font-family: 'fzltcxhjw';
-    src: url("fzltcxhjw.ttf")/*tpa=http://www.liumai.net/custom/css/fonts/fzltcxhjw.ttf*/,
-         url("fzltcxhjw.woff")/*tpa=http://www.liumai.net/custom/css/fonts/fzltcxhjw.woff*/;
+    src: url("../../static/fzltcxhjw.ttf"),
+         url("../../static/fzltcxhjw.woff");
 	font-weight:100;
 }
 /* Gobal css end */
@@ -67,21 +67,21 @@ a{color:#ea3340;text-decoration:none;outline:none;transition:all 0.3s; -webkit-t
 /* header*/
 .Ued-header{position:fixed; left:0; top:0; padding:25px 0; height:100px; width:100%; z-index:1000; -moz-transition:all 0.3s;-webkit-transition:all 0.3s;-o-transition:all 0.3s;-ms-transition:all 0.3s;transition:all 0.3s;}
 .Ued-header h1{float:left; margin:0;}
-.Ued-header h1 a.logo{display:block; width:192px; height:44px; text-indent:-8889px; background:url(logo.svg)/*tpa=http://www.liumai.net/templets/Images/logo.svg*/ no-repeat center; background-size:192px 44px; -moz-transition:none;-webkit-transition:none;-o-transition:none;-ms-transition:none;transition:none;}
+.Ued-header h1 a.logo{display:block; width:192px; height:44px; text-indent:-8889px; background:url(logo.svg) no-repeat center; background-size:192px 44px; -moz-transition:none;-webkit-transition:none;-o-transition:none;-ms-transition:none;transition:none;}
 .Ued-header ul.nav{float:right;}
 .Ued-header ul.nav li{float:left; padding:0 20px;}
 .Ued-header ul.nav li a{display:block; font-size:16px; line-height:50px;color:#fff; text-decoration:none;}
 .Ued-header ul.nav li a:hover{color:#ea3340; text-decoration:none;}
-.Ued-header ul.nav li a.cicon-qq{margin:3px 0; display:block; width:44px; height:44px;  text-indent:-8889px; background:url(cicon_bg_qq.png)/*tpa=http://www.liumai.net/custom/css/images/cicon_bg_qq.png*/ no-repeat 0px 0px; background-size:44px;}
-.Ued-header ul.nav li a.cicon-qq:hover{background:url(cicon_bg_qq.png)/*tpa=http://www.liumai.net/custom/css/images/cicon_bg_qq.png*/ no-repeat 0px -44px; background-size:44px;}
-.Ued-header ul.nav li a.current,.Ued-Header ul.nav li a.current:hover{ background:url(dot_w.png)/*tpa=http://www.liumai.net/custom/css/images/dot_w.png*/ no-repeat center bottom; background-size:6px;}
+.Ued-header ul.nav li a.cicon-qq{margin:3px 0; display:block; width:44px; height:44px;  text-indent:-8889px; background:url(../images/cicon_bg_qq.png) no-repeat 0px 0px; background-size:44px;}
+.Ued-header ul.nav li a.cicon-qq:hover{background:url(../images/cicon_bg_qq.png) no-repeat 0px -44px; background-size:44px;}
+.Ued-header ul.nav li a.current,.Ued-Header ul.nav li a.current:hover{ background:url(../images/dot_w.png) no-repeat center bottom; background-size:6px;}
 
 .Ued-header-scroll{padding:8px 0; height:60px; background:#fff; background:rgba(255,255,255,.96); -moz-transition:all 0.3s;-webkit-transition:all 0.3s;-o-transition:all 0.3s;-ms-transition:all 0.3s;transition:all 0.3s;}
-.Ued-header-scroll h1 a.logo{display:block; width:192px; height:44px; background:url(logo2.svg)/*tpa=http://www.liumai.net/templets/Images/logo2.svg*/ no-repeat center; background-size:192px 44px; text-indent:-8889px; -moz-transition:none;-webkit-transition:none;-o-transition:none;-ms-transition:none;transition:none;}
+.Ued-header-scroll h1 a.logo{display:block; width:192px; height:44px; background:url(../../static/logo2.svg) no-repeat center; background-size:192px 44px; text-indent:-8889px; -moz-transition:none;-webkit-transition:none;-o-transition:none;-ms-transition:none;transition:none;}
 .Ued-header-scroll ul.nav li a{display:block; font-size:16px; line-height:44px; color:#121212; text-decoration:none;}
-.Ued-header-scroll ul.nav li a.cicon-qq{margin:0; display:block; width:44px; height:44px; text-indent:-8889px; background:url(cicon_bg_qq.png)/*tpa=http://www.liumai.net/custom/css/images/cicon_bg_qq.png*/ no-repeat 0px -88px; background-size:44px;}
-.Ued-header-scroll ul.nav li a.cicon-qq:hover{background:url(cicon_bg_qq.png)/*tpa=http://www.liumai.net/custom/css/images/cicon_bg_qq.png*/ no-repeat 0px -44px; background-size:44px; }
-.Ued-header-scroll ul.nav li a.current,.Ued-header-scroll ul.nav li a.current:hover{color:#ea3340; background:url(dot_red.png)/*tpa=http://www.liumai.net/custom/css/images/dot_red.png*/ no-repeat center bottom; background-size:6px;}
+.Ued-header-scroll ul.nav li a.cicon-qq{margin:0; display:block; width:44px; height:44px; text-indent:-8889px; background:url(../images/cicon_bg_qq.png) no-repeat 0px -88px; background-size:44px;}
+.Ued-header-scroll ul.nav li a.cicon-qq:hover{background:url(../images/cicon_bg_qq.png) no-repeat 0px -44px; background-size:44px; }
+.Ued-header-scroll ul.nav li a.current,.Ued-header-scroll ul.nav li a.current:hover{color:#ea3340; background:url(../images/dot_red.png) no-repeat center bottom; background-size:6px;}
 
 /*right menu*/
 .toggle-btn{display:none;}
@@ -173,9 +173,9 @@ a{color:#ea3340;text-decoration:none;outline:none;transition:all 0.3s; -webkit-t
 .sitem-txt h3 i{margin:20px 0; display:block; width:50px; padding-top:1px; background:#ea3340;}
 .sitem-txt p{color:#666;}
 .sitem-img{float:left; width:50%; height:520px;}
-.img-ue{background:url(img_ue.jpg)/*tpa=http://www.liumai.net/custom/css/images/img_ue.jpg*/ no-repeat right center; background-size:cover;}
-.img-ui{background:url(img_ui.jpg)/*tpa=http://www.liumai.net/custom/css/images/img_ui.jpg*/ no-repeat left center; background-size:cover;}
-.img-dev{background:url(img_dev.jpg)/*tpa=http://www.liumai.net/custom/css/images/img_dev.jpg*/ no-repeat center; background-size:cover;}
+.img-ue{background:url(../images/img_ue.jpg) no-repeat right center; background-size:cover;}
+.img-ui{background:url(../images/img_ui.jpg) no-repeat left center; background-size:cover;}
+.img-dev{background:url(../images/img_dev.jpg) no-repeat center; background-size:cover;}
 
 .txtarea-left{float:left; padding-left:68px; padding-right:20px; max-width:482px; min-width:412px; text-align:left; }
 .txtarea-right{float:right; margin-right:88px; padding-right:68px; padding-left:12px;  max-width:482px; min-width:412px;}
@@ -189,20 +189,20 @@ a{color:#ea3340;text-decoration:none;outline:none;transition:all 0.3s; -webkit-t
 .items-list li dl dt h4{ line-height:30px; color:#121212;}
 .items-list li dl dt h4 span{display:block; line-height:20px; color:#888; }
 .items-list li dl dd{line-height:24px; height:72px; overflow:hidden; color:#666; text-align:left; }
-.items-list li dl dt.item-icons-01{background:url(items_icon_01.png)/*tpa=http://www.liumai.net/custom/css/images/items_icon_01.png*/ no-repeat left center; background-size:78px; }
-.items-list li dl dt.item-icons-02{background:url(items_icon_02.png)/*tpa=http://www.liumai.net/custom/css/images/items_icon_02.png*/ no-repeat left center; background-size:78px; }
-.items-list li dl dt.item-icons-03{background:url(items_icon_03.png)/*tpa=http://www.liumai.net/custom/css/images/items_icon_03.png*/ no-repeat left center; background-size:78px; }
-.items-list li dl dt.item-icons-04{background:url(items_icon_04.png)/*tpa=http://www.liumai.net/custom/css/images/items_icon_04.png*/ no-repeat left center; background-size:78px; }
-.items-list li dl dt.item-icons-05{background:url(items_icon_05.png)/*tpa=http://www.liumai.net/custom/css/images/items_icon_05.png*/ no-repeat left center; background-size:78px; }
-.items-list li dl dt.item-icons-06{background:url(items_icon_06.png)/*tpa=http://www.liumai.net/custom/css/images/items_icon_06.png*/ no-repeat left center; background-size:78px; }
-.items-list li dl dt.item-icons-07{background:url(items_icon_07.png)/*tpa=http://www.liumai.net/custom/css/images/items_icon_07.png*/ no-repeat left center; background-size:78px; }
-.items-list li dl dt.item-icons-08{background:url(items_icon_08.png)/*tpa=http://www.liumai.net/custom/css/images/items_icon_08.png*/ no-repeat left center; background-size:78px; }
-.items-list li dl dt.item-icons-09{background:url(items_icon_09.png)/*tpa=http://www.liumai.net/custom/css/images/items_icon_09.png*/ no-repeat left center; background-size:78px; }
-.items-list li dl dt.item-icons-10{background:url(items_icon_10.png)/*tpa=http://www.liumai.net/custom/css/images/items_icon_10.png*/ no-repeat left center; background-size:78px; }
-.items-list li dl dt.item-icons-11{background:url(items_icon_11.png)/*tpa=http://www.liumai.net/custom/css/images/items_icon_11.png*/ no-repeat left center; background-size:78px; }
-.items-list li dl dt.item-icons-12{background:url(items_icon_12.png)/*tpa=http://www.liumai.net/custom/css/images/items_icon_12.png*/ no-repeat left center; background-size:78px; }
+.items-list li dl dt.item-icons-01{background:url(../images/items_icon_01.png) no-repeat left center; background-size:78px; }
+.items-list li dl dt.item-icons-02{background:url(../images/items_icon_02.png) no-repeat left center; background-size:78px; }
+.items-list li dl dt.item-icons-03{background:url(../images/items_icon_03.png) no-repeat left center; background-size:78px; }
+.items-list li dl dt.item-icons-04{background:url(../images/items_icon_04.png) no-repeat left center; background-size:78px; }
+.items-list li dl dt.item-icons-05{background:url(../images/items_icon_05.png) no-repeat left center; background-size:78px; }
+.items-list li dl dt.item-icons-06{background:url(../images/items_icon_06.png) no-repeat left center; background-size:78px; }
+.items-list li dl dt.item-icons-07{background:url(../images/items_icon_07.png) no-repeat left center; background-size:78px; }
+.items-list li dl dt.item-icons-08{background:url(../images/items_icon_08.png) no-repeat left center; background-size:78px; }
+.items-list li dl dt.item-icons-09{background:url(../images/items_icon_09.png) no-repeat left center; background-size:78px; }
+.items-list li dl dt.item-icons-10{background:url(../images/items_icon_10.png) no-repeat left center; background-size:78px; }
+.items-list li dl dt.item-icons-11{background:url(../images/items_icon_11.png) no-repeat left center; background-size:78px; }
+.items-list li dl dt.item-icons-12{background:url(../images/items_icon_12.png) no-repeat left center; background-size:78px; }
 
-.Ued-abtdiv{text-align:center; background:url(img_abt.jpg)/*tpa=http://www.liumai.net/custom/css/images/img_abt.jpg*/ no-repeat center; background-size:cover; background-attachment:fixed; }
+.Ued-abtdiv{text-align:center; background:url(../images/img_abt.jpg) no-repeat center; background-size:cover; background-attachment:fixed; }
 .Ued-abtdiv h3{margin:0 0 20px; color:#fff;}
 .Ued-abtdiv p{margin:0 0 20px; color:#fff;}
 .Ued-abtdiv a{color:#fff;}

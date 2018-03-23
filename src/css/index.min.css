@@ -1004,7 +1004,7 @@ section.business {
 	-o-transition: all .3s ease-in-out .5s;
 	transition: all .3s ease-in-out .5s;
 }
-
+/*
 .business .box label {
 	display: block;
 	margin: 0 auto;
@@ -1012,6 +1012,34 @@ section.business {
 	width: 297px;
 	height: 21px;
 	background: url(../images/words.png) no-repeat 0px -333px;
+}*/
+.business .box a.more {
+	display: block;
+	position: relative;
+	margin: 0 auto;
+	margin-top: 50px;
+	top: 700px;
+	width: 120px;
+	padding: 5px 0px;
+	color: #00dfb9;
+	font-size: 26px;
+	text-align: center;
+	text-decoration: none;
+	border: 1px dotted #00dfb9;
+	-webkit-transition: all .3s ease-in-out 0s,top .8s ease-in-out 0s;
+	-moz-transition: all .3s ease-in-out 0s,top .8s ease-in-out 0s;
+	-ms-transition: all .3s ease-in-out 0s,top .8s ease-in-out 0s;
+	-o-transition: all .3s ease-in-out 0s,top .8s ease-in-out 0s;
+	transition: all .3s ease-in-out 0s,top .8s ease-in-out 0s;
+}
+
+.business.active .box a.more {
+	top: 40px;
+}
+
+.business .box a.more:hover {
+	color: White;
+	background: #2fd0b5;
 }
 
 section.cases {
