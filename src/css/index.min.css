@@ -124,7 +124,7 @@ header .logo {
 	position: fixed;
 	top: 24px;
 	left: 50px;
-	width: 180px;
+	width: 258px;
 	-webkit-transition: all .2s ease-in-out 0s;
 	-moz-transition: all .2s ease-in-out 0s;
 	-ms-transition: all .2s ease-in-out 0s;
@@ -133,8 +133,8 @@ header .logo {
 }
 
 header.fixed .logo {
-	width: 120px;
-	top: 16px;
+	/*width: 120px;*/
+	top: 5px;
 }
 
 header .words {
@@ -403,8 +403,8 @@ section {
 .video .swiper-container .nth1 .box .left {
 	position: absolute;
 	left: -300px;
-	width: 123px;
-	height: 231px;
+	width: 88px;
+	height: 109px;
 	background: url(../images/words.png) no-repeat top right;
 	-moz-opacity: 0;
 	opacity: 0;
@@ -447,7 +447,7 @@ section {
 
 .video .swiper-container .nth1 .box .right i {
 	display: block;
-	width: 339px;
+	width: 338px;
 	height: 66px;
 	margin-bottom: 5px;
 	background: url(../images/words.png) no-repeat;
@@ -490,7 +490,7 @@ section {
 	display: block;
 	width: 0px;
 	height: 0px;
-	border: 1px dashed #22fae2;
+	/*border: 1px dashed #22fae2;*/
 	text-decoration: none;
 	-moz-opacity: 0;
 	opacity: 0;
@@ -533,8 +533,8 @@ section {
 
 .video .swiper-container .nth2 .box i {
 	display: block;
-	width: 320px;
-	height: 65px;
+	width: 556px;
+	height: 66px;
 	margin: 10px 0px 8px 0px;
 	background: url(../images/words.png) no-repeat 0px -72px;
 }
@@ -599,7 +599,7 @@ section {
 }
 
 .video .swiper-container .nth3 .box .mid {
-	width: 358px;
+	width: 327px;
 	height: 66px;
 	margin: 0 auto;
 	margin-top: 20px;
@@ -679,11 +679,11 @@ section {
 
 .video .swiper-container .nth4 .box .top i {
 	display: block;
-	width: 242px;
-	height: 64px;
+	width: 282px;
+	height: 66px;
 	margin: 0 auto;
 	margin-top: 15px;
-	background: url(../images/words.png) no-repeat 0px -147px;
+	background: url(../images/words.png) no-repeat 0px -146px;
 }
 
 .video .swiper-container .nth4 .box .bottom {
@@ -1954,17 +1954,17 @@ section.marketing {
 
 .marketing .box ul.items li.sms i {
 	width: 61px;
-	background: url(../images/words.png) no-repeat -366px -628px;
+	background: url(../images/words.png) no-repeat -367px -630px;
 }
 
 .marketing .box ul.items li.pay i {
-	width: 56px;
-	background: url(../images/words.png) no-repeat -438px -639px;
+	width: 62px;
+	background: url(../images/words.png) no-repeat -435px -625px;
 }
 
 .marketing .box ul.items li.bbs i {
-	width: 51px;
-	background: url(../images/words.png) no-repeat -144px -705px;
+	width: 63px;
+	background: url(../images/words.png) no-repeat -144px -702px;
 }
 
 .marketing .box ul.items li u {
@@ -2027,6 +2027,36 @@ section.marketing {
 	opacity: 0.4;
 	filter: alpha(opacity=40);
 }
+.marketing .box a.more {
+	display: block;
+	position: relative;
+	margin: 0 auto;
+	margin-top: 50px;
+	top: 700px;
+	width: 120px;
+	padding: 5px 0px;
+	color: #00dfb9;
+	font-size: 26px;
+	text-align: center;
+	text-decoration: none;
+	border: 1px dotted #00dfb9;
+	-webkit-transition: all .3s ease-in-out 0s,top .8s ease-in-out 0s;
+	-moz-transition: all .3s ease-in-out 0s,top .8s ease-in-out 0s;
+	-ms-transition: all .3s ease-in-out 0s,top .8s ease-in-out 0s;
+	-o-transition: all .3s ease-in-out 0s,top .8s ease-in-out 0s;
+	transition: all .3s ease-in-out 0s,top .8s ease-in-out 0s;
+}
+
+.marketing.active .box a.more {
+	top: 0px;
+}
+
+.marketing .box a.more:hover {
+	color: White;
+	background: #2fd0b5;
+}
+
+
 
 section.aboutus {
 	position: relative;
@@ -2553,7 +2583,7 @@ section.contact {
 	header .logo {
 		top: 24px;
 		left: 35px;
-		width: 160px;
+		width: 258px;
 	}
 
 	header .words {
@@ -2667,7 +2697,7 @@ section.contact {
 	header .logo,header.fixed .logo {
 		top: 17px;
 		left: 20px;
-		width: 120px;
+		width: 258px;
 	}
 
 	header .words {
@@ -2720,7 +2750,7 @@ section.contact {
 	}
 
 	header .logo,header.fixed .logo {
-		width: 80px;
+		width: 258px;
 	}
 
 	header .menu-icon,header.fixed .menu-icon {
@@ -2881,7 +2911,7 @@ section.contact {
 	}
 
 	.video .swiper-container .nth2 .box i {
-		width: 191px;
+		width: 328px;
 		height: 40px;
 		margin-top: 8px;
 		margin-bottom: 5px;
@@ -2919,7 +2949,7 @@ section.contact {
 	}
 
 	.video .swiper-container .nth3 .box .mid {
-		width: 216px;
+		width: 191px;
 		height: 40px;
 		margin-top: 10px;
 		background: url(../images/words_mini.png) no-repeat 0px -131px;
@@ -2952,7 +2982,7 @@ section.contact {
 	}
 
 	.video .swiper-container .nth4 .box .top i {
-		width: 143px;
+		width: 166px;
 		height: 38px;
 		background: url(../images/words_mini.png) no-repeat 0px -88px;
 	}

@@ -156,6 +156,13 @@ h1, h2, h3, h4, h5, h6{margin:0 0 .12rem; font-size:.14rem; }
 #Slider-case .slick div.slidbox{ height:3.2rem;}
 #Slider-case .slick-dots { bottom: .2rem;}
 
+/*
+.case-warp{position: relative;width: 100%;}
+.case-warp .Container {margin-right: auto;margin-left: auto;padding-left: 10px;padding-right: 10px;width: 100%;!*min-width: 0;max-width: 0;*!}
+.case-warp li, .case-list article{float: left;width: 48.3333%;margin: 0.8333%;background: #ffffff;}
+*/
+
+
 /*case sort*/
 .Ued-fix-sort .container{padding:0;}
 .Ued-fix-sort ul li{float:left; padding:0; width:20%; text-align:center;}
