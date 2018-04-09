@@ -34,7 +34,7 @@ h1, h2, h3, h4, h5, h6{margin:0 0 .12rem; font-size:.14rem; }
 /* header*/
 .Ued-header{padding-top:10px; padding-bottom:10px; height:60px;}
 .Ued-header h1 a.logo{width:40px; height:40px; background-size:40px 40px;}
-.Ued-header ul.nav{display:none;}
+.Ued-header ul#nav{display:none;}
 .Ued-header-scroll{padding-top:10px; padding-bottom:10px; height:60px;background:rgba(255,255,255,.96);}
 .Ued-header-scroll h1 a.logo{display:block; width:176px; height:40px; text-indent:-9999px; background:url(logo_txt_2x.png) no-repeat center; background-size:176px 40px;}
 

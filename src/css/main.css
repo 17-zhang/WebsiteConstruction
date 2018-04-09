@@ -345,3 +345,11 @@ a{color:#ea3340;text-decoration:none;outline:none;transition:all 0.3s; -webkit-t
 
 
 /*case detail*/
+
+
+/*map css*/
+
+.map{ width:100%;height:520px;}
+.map-title {  font-size: 14px;  font-weight: bold;  color: #cc5522;  }
+.map-content {  font-size: 13px;  color: #333;  margin-top: 6px;  }
+.map-container{width:100%;height:520px;}
