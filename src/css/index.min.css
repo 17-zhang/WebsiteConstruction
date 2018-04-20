@@ -1013,7 +1013,7 @@ section.business {
 	height: 21px;
 	background: url(../images/words.png) no-repeat 0px -333px;
 }*/
-.business .box a.more {
+.business  a.more {
 	display: block;
 	position: relative;
 	margin: 0 auto;
@@ -1033,11 +1033,11 @@ section.business {
 	transition: all .3s ease-in-out 0s,top .8s ease-in-out 0s;
 }
 
-.business.active .box a.more {
+.business.active  a.more {
 	top: 40px;
 }
 
-.business .box a.more:hover {
+.business  a.more:hover {
 	color: White;
 	background: #2fd0b5;
 }
@@ -2695,7 +2695,7 @@ section.contact {
 	}
 
 	header .logo,header.fixed .logo {
-		top: 17px;
+		top: 0px;
 		left: 20px;
 		width: 258px;
 	}
@@ -2756,6 +2756,10 @@ section.contact {
 	header .menu-icon,header.fixed .menu-icon {
 		top: 13px;
 	}
+
+	/*header .menu-icon,header.fixed .menu-icon  a{
+		display: none;
+	}*/
 
 	header .menu-icon span.glyphicon-earphone {
 		display: inline;
@@ -2845,7 +2849,7 @@ section.contact {
 
 (orientation:landscape) and (max-height:480px),(orientation:portrait) and (max-width:699px) {
 	.video .swiper-container .nth1 .box .left {
-		width: 74px;
+		width: 78px;
 		height: 139px;
 		left: -150px;
 		background: url(../images/words_mini.png) no-repeat top right;
@@ -3286,10 +3290,12 @@ section.contact {
 
 	.business .box ul.items {
 		margin-top: 30px;
+		width: 100% !important;
 	}
 
 	.business .box ul.items li {
-		width: 173px;
+		/*width: 173px;*/
+		width: 100%;
 		height: 43px;
 		margin: 15px 10px 0px 10px;
 	}
@@ -3307,13 +3313,13 @@ section.contact {
 	.business .box ul.items li.mobi i {
 		width: 46px;
 		height: 39px;
-		background: url(../images/words_mini.png) no-repeat -245px -176px;
+		background: url(../images/words_mini.png) no-repeat -258px -176px;
 	}
 
 	.business .box ul.items li.sys i {
 		width: 46px;
-		height: 35px;
-		background: url(../images/words_mini.png) no-repeat -249px -220px;
+		height: 39px;
+		background: url(../images/words_mini.png) no-repeat -258px -220px;
 	}
 
 	.business .box ul.items li.app i {
@@ -3324,8 +3330,8 @@ section.contact {
 
 	.business .box ul.items li.host i {
 		width: 47px;
-		height: 38px;
-		background: url(../images/words_mini.png) no-repeat -253px -266px;
+		height: 43px;
+		background: url(../images/words_mini.png) no-repeat -261px -266px;
 	}
 
 	.business .box ul.items li p {
@@ -3482,6 +3488,7 @@ section.contact {
 
 	.business .box ul.items {
 		margin-top: 20px;
+		width: 80% !important;
 	}
 }
 
@@ -4308,9 +4315,9 @@ section.contact {
 	}
 
 	.marketing .box ul.items li.bbs i {
-		width: 31px;
+		width: 35px;
 		margin: 0 7px;
-		background: url(../images/words_mini.png) no-repeat -86px -422px;
+		background: url(../images/words_mini.png) no-repeat -88px -422px;
 	}
 
 	.marketing .box ul.items li strong,.marketing.active .box ul.items li strong {

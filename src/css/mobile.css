@@ -36,7 +36,7 @@ h1, h2, h3, h4, h5, h6{margin:0 0 .12rem; font-size:.14rem; }
 .Ued-header h1 a.logo{width:40px; height:40px; background-size:40px 40px;}
 .Ued-header ul#nav{display:none;}
 .Ued-header-scroll{padding-top:10px; padding-bottom:10px; height:60px;background:rgba(255,255,255,.96);}
-.Ued-header-scroll h1 a.logo{display:block; width:176px; height:40px; text-indent:-9999px; background:url(logo_txt_2x.png) no-repeat center; background-size:176px 40px;}
+.Ued-header-scroll h1 a.logo{display:block; width:235px; height:44px; text-indent:-9999px; background:url(../images/logo-h44.png) no-repeat center; background-size:235px 44px;}
 
 /*right menu*/
 .menu,.slideout-menu {position:fixed; top:0;bottom:0;right:0;z-index:0; width:256px; overflow-y:scroll; -webkit-overflow-scrolling:touch; display:none;}
@@ -224,6 +224,7 @@ h1, h2, h3, h4, h5, h6{margin:0 0 .12rem; font-size:.14rem; }
 .mark-info a,.mark-info a:hover{color:#fff; text-decoration:none;}
 
 /* job*/
+/*
 .Ued-job{background:#f8f8f8;}
 
 .Ued-job h3.title-index{padding:0;}
@@ -247,6 +248,7 @@ h1, h2, h3, h4, h5, h6{margin:0 0 .12rem; font-size:.14rem; }
 .job-list dl dt.item-icons-10,
 .job-list dl dt.item-icons-11,
 .job-list dl dt.item-icons-12{ background-size:.44rem; }
+*/
 
 
 /*show txt style*/
@@ -268,6 +270,13 @@ h1, h2, h3, h4, h5, h6{margin:0 0 .12rem; font-size:.14rem; }
 .case-example-txt a.go-sitelink i{position:absolute; left:.05rem; top:.05rem; display:block; width:.28rem; height:.28rem; }
 
 /*show case example end*/
+
+
+/*!*job -> content*!
+#job h2 h4{
+   color: #ffffff;
+}*/
+
 
 }
 /*************************************************phone************************************/
@@ -302,3 +311,90 @@ h1, h2, h3, h4, h5, h6{margin:0 0 .12rem; font-size:.14rem; }
 }
 
 
+/* ----------- iPhone 6, 6S, 7 and 8 ----------- */
+
+/* Portrait and Landscape */
+@media only screen
+and (min-device-width: 375px)
+and (max-device-width: 667px)
+and (-webkit-min-device-pixel-ratio: 2) {
+
+}
+
+/* Portrait */
+@media only screen
+and (min-device-width: 375px)
+and (max-device-width: 667px)
+and (-webkit-min-device-pixel-ratio: 2)
+and (orientation: portrait) {
+
+}
+
+/* Landscape */
+@media only screen
+and (min-device-width: 375px)
+and (max-device-width: 667px)
+and (-webkit-min-device-pixel-ratio: 2)
+and (orientation: landscape) {
+
+}
+
+/* ----------- iPhone 6+, 7+ and 8+ ----------- */
+
+/* Portrait and Landscape */
+@media only screen
+and (min-device-width: 414px)
+and (max-device-width: 736px)
+and (-webkit-min-device-pixel-ratio: 3) {
+
+}
+
+/* Portrait */
+@media only screen
+and (min-device-width: 414px)
+and (max-device-width: 736px)
+and (-webkit-min-device-pixel-ratio: 3)
+and (orientation: portrait) {
+
+}
+
+/* Landscape */
+@media only screen
+and (min-device-width: 414px)
+and (max-device-width: 736px)
+and (-webkit-min-device-pixel-ratio: 3)
+and (orientation: landscape) {
+
+}
+
+
+
+
+
+/* ----------- iPhone X ----------- */
+
+/* Portrait and Landscape */
+@media only screen
+and (min-device-width: 375px)
+and (max-device-width: 812px)
+and (-webkit-min-device-pixel-ratio: 3) {
+
+}
+
+/* Portrait */
+@media only screen
+and (min-device-width: 375px)
+and (max-device-width: 812px)
+and (-webkit-min-device-pixel-ratio: 3)
+and (orientation: portrait) {
+
+}
+
+/* Landscape */
+@media only screen
+and (min-device-width: 375px)
+and (max-device-width: 812px)
+and (-webkit-min-device-pixel-ratio: 3)
+and (orientation: landscape) {
+
+}
