@@ -39,11 +39,11 @@
 }
 
 .faq-q {
-   /* font-family: 'Helvetica Neue',Helvetica,STHeiti,'Microsoft YaHei',Arial,Verdana,sans-serif;*/
+   /* fonts-family: 'Helvetica Neue',Helvetica,STHeiti,'Microsoft YaHei',Arial,Verdana,sans-serif;*/
     cursor: pointer;
-  /*  font-size: 1.25em;*/
+  /*  fonts-size: 1.25em;*/
     background: rgba(249, 249, 249, 0.5);
-    /*font-weight: 100;*/
+    /*fonts-weight: 100;*/
     padding: 16px;
     -webkit-transition: all 0.3s ease-in-out;
     -moz-transition: all 0.3s ease-in-out;

@@ -67,7 +67,7 @@ a{color:#ea3340;text-decoration:none;outline:none;transition:all 0.3s; -webkit-t
 /* header*/
 .Ued-header{position:fixed; left:0; top:0; padding:25px 0; height:100px; width:100%; z-index:1000; -moz-transition:all 0.3s;-webkit-transition:all 0.3s;-o-transition:all 0.3s;-ms-transition:all 0.3s;transition:all 0.3s;}
 .Ued-header h1{float:left; margin:0;}
-.Ued-header h1 a.logo{display:block; width:192px; height:44px; text-indent:-8889px; background:url(logo.svg) no-repeat center; background-size:192px 44px; -moz-transition:none;-webkit-transition:none;-o-transition:none;-ms-transition:none;transition:none;}
+.Ued-header h1 a.logo{display:block; width:235px; height:44px; text-indent:-8889px; background:url(../images/logo-h44.png) no-repeat center; background-size:235px 44px; -moz-transition:none;-webkit-transition:none;-o-transition:none;-ms-transition:none;transition:none;}
 .Ued-header ul#nav{float:right;}
 .Ued-header ul#nav li{float:left; padding:0 20px;}
 .Ued-header ul#nav li a{display:block; font-size:16px; line-height:50px;color:#fff; text-decoration:none;}
@@ -89,7 +89,7 @@ a{color:#ea3340;text-decoration:none;outline:none;transition:all 0.3s; -webkit-t
 
 /*slider index*/
 #Slider-index .slick {margin: 0 auto; width:100%; min-width:1024px;}
-#Slider-index .slick div.slidbox{background-repeat:none; background-position:center; background-size:cover;box-sizing:border-box; -moz-box-sizing:border-box; /* Firefox */ -webkit-box-sizing:border-box; /* Safari */}
+#Slider-index .slick div.slidbox{background-repeat:no-repeat; background-position:center; background-size:cover;box-sizing:border-box; -moz-box-sizing:border-box; /* Firefox */ -webkit-box-sizing:border-box; /* Safari */}
 #Slider-index .slick div.slidbox div.container{display:table; height:100%;}
 #Slider-index .slick-prev:before, .slick-next:before { position:absolute; left: 0; top: 1px; color: #ccc;}
 #Slider-index .slick-prev {display:none; left: -35px;}
@@ -99,14 +99,13 @@ a{color:#ea3340;text-decoration:none;outline:none;transition:all 0.3s; -webkit-t
 /*slider subpage*/
 
 /* footer */
-.Ued-footer{background:#9a9c99; padding:44px 0; min-width:1024px;}
+.Ued-footer{background:#707070; padding:44px 0; min-width:1024px;}
 .footer-box{float:left; width:50%;}
 .footer-box .footer-txt{clear:both; color:#eee;}
 .footer-nav{overflow:hidden; margin:0 0 30px;}
 .footer-nav li{float:left; padding:0 40px 0 0;}
 .footer-nav li a{display:block; color:#fff;}
 .footer-nav li a:hover{text-decoration:none; color:#ccc;}
-.logo-en{display:block; width:240px; height:34px; background:url(logo_en_2x.png)/*tpa=http://www.liumai.net/custom/css/images/logo_en_2x.png*/ no-repeat center top; background-size:240px 18px;}
 .fr{float:right;}
 .tright{text-align:right;}
 .statement{clear:both; padding:10px 20px; line-height:20px; font-size:13px; text-align:center; color:#fff; background:#7a7a7a;}
@@ -122,13 +121,12 @@ a{color:#ea3340;text-decoration:none;outline:none;transition:all 0.3s; -webkit-t
 .service-item li a span p{line-height:26px; color:#888; }
 .service-item li a:hover span p{color:#f8f8f8; }
 
-.service-item li a span.service-ue{background:url(icon_ue.png)/*tpa=http://www.liumai.net/custom/css/images/icon_ue.png*/ no-repeat 0px 0px; background-size:76px; -moz-transition:all 0.3s;-webkit-transition:all 0.3s;-o-transition:all 0.3s;-ms-transition:all 0.3s;transition:all 0.3s;}
-.service-item li a:hover span.service-ue{background:url(icon_ue.png)/*tpa=http://www.liumai.net/custom/css/images/icon_ue.png*/ no-repeat 0px -76px; background-size:76px;}
-.service-item li a span.service-ui{background:url(icon_ui.png)/*tpa=http://www.liumai.net/custom/css/images/icon_ui.png*/  no-repeat 0px 0px; background-size:76px;-moz-transition:all 0.3s;-webkit-transition:all 0.3s;-o-transition:all 0.3s;-ms-transition:all 0.3s;transition:all 0.3s;}
-.service-item li a:hover span.service-ui{background:url(icon_ui.png)/*tpa=http://www.liumai.net/custom/css/images/icon_ui.png*/  no-repeat 0px -76px; background-size:76px; }
-.service-item li a span.service-dev{background:url(icon_dev.png)/*tpa=http://www.liumai.net/custom/css/images/icon_dev.png*/ no-repeat 0px 0px; background-size:76px;-moz-transition:all 0.3s;-webkit-transition:all 0.3s;-o-transition:all 0.3s;-ms-transition:all 0.3s;transition:all 0.3s;}
-.service-item li a:hover span.service-dev{background:url(icon_dev.png)/*tpa=http://www.liumai.net/custom/css/images/icon_dev.png*/ no-repeat 0px -76px; background-size:76px; }
-
+.service-item li a span.service-ue{background:url(icon_ue.png) no-repeat 0px 0px; background-size:76px; -moz-transition:all 0.3s;-webkit-transition:all 0.3s;-o-transition:all 0.3s;-ms-transition:all 0.3s;transition:all 0.3s;}
+.service-item li a:hover span.service-ue{background:url(icon_ue.png) no-repeat 0px -76px; background-size:76px;}
+.service-item li a span.service-ui{background:url(icon_ui.png)  no-repeat 0px 0px; background-size:76px;-moz-transition:all 0.3s;-webkit-transition:all 0.3s;-o-transition:all 0.3s;-ms-transition:all 0.3s;transition:all 0.3s;}
+.service-item li a:hover span.service-ui{background:url(icon_ui.png)  no-repeat 0px -76px; background-size:76px; }
+.service-item li a span.service-dev{background:url(icon_dev.png) no-repeat 0px 0px; background-size:76px;-moz-transition:all 0.3s;-webkit-transition:all 0.3s;-o-transition:all 0.3s;-ms-transition:all 0.3s;transition:all 0.3s;}
+.service-item li a:hover span.service-dev{background:url(icon_dev.png) no-repeat 0px -76px; background-size:76px; }
 
 /* case*/
 .case-list{overflow:hidden;}
@@ -138,7 +136,7 @@ a{color:#ea3340;text-decoration:none;outline:none;transition:all 0.3s; -webkit-t
 .case-list li a h4,.case-list li a:hover h4{margin:0; padding:0 10px; width:100%; line-height:40px;  color:#121212; overflow:hidden; text-overflow:ellipsis; white-space:nowrap;}
 .case-list li a p,.case-list li a:hover p{width:100%; padding:0 10px; height:52px; line-height:26px; color:#666; overflow:hidden;}
 /* index contact */
-.Ued-index-contact{background:url(bg_contactimg.jpg)/*tpa=http://www.liumai.net/custom/css/images/bg_contactimg.jpg*/ no-repeat center; background-size:cover; background-attachment:fixed; }
+.Ued-index-contact{background:url(bg_contactimg.jpg) no-repeat center; background-size:cover; background-attachment:fixed; }
 .Ued-index-contact h3{margin:0 auto 20px;  width:60%; line-height:1.75; text-align:center;color:#fff; }
 .Ued-index-contact p{margin:0 auto 15px; width:80%; line-height:1.75; text-align:center;color:#eee; }
 .Ued-index-contact p span{display:inline-block; margin:0 20px;}
@@ -162,10 +160,10 @@ a{color:#ea3340;text-decoration:none;outline:none;transition:all 0.3s; -webkit-t
 .Ued-showimg{padding:88px 0; height:520px; min-width:1024px; }
 .Ued-showimg div.container{display:table; height:100%;}
 
-.show-service{background:url(bg_service.jpg)/*tpa=http://www.liumai.net/custom/css/images/bg_service.jpg*/ no-repeat center; background-size:cover;}
-.show-about{background:url(bg_about.jpg)/*tpa=http://www.liumai.net/custom/css/images/bg_about.jpg*/ no-repeat center; background-size:cover;}
-.show-contact{background:url(bg_contact.jpg)/*tpa=http://www.liumai.net/custom/css/images/bg_contact.jpg*/ no-repeat center; background-size:cover;}
-.show-join{background:url(bg_join.jpg)/*tpa=http://www.liumai.net/custom/css/images/bg_join.jpg*/ no-repeat center; background-size:cover;}
+.show-service{background:url(bg_service.jpg) no-repeat center; background-size:cover;}
+.show-about{background:url(bg_about.jpg) no-repeat center; background-size:cover;}
+.show-contact{background:url(bg_contact.jpg) no-repeat center; background-size:cover;}
+.show-join{background:url(bg_join.jpg) no-repeat center; background-size:cover;}
 
 /*service abt*/
 .Ued-sitem{height:520px;min-width:1024px;}
@@ -175,9 +173,6 @@ a{color:#ea3340;text-decoration:none;outline:none;transition:all 0.3s; -webkit-t
 .sitem-txt h3 i{margin:20px 0; display:block; width:50px; padding-top:1px; background:#ea3340;}
 .sitem-txt p{color:#666;}
 .sitem-img{float:left; width:50%; height:520px;}
-.img-ue{background:url(../images/img_ue.jpg) no-repeat right center; background-size:cover;}
-.img-ui{background:url(../images/img_ui.jpg) no-repeat left center; background-size:cover;}
-.img-dev{background:url(../images/img_dev.jpg) no-repeat center; background-size:cover;}
 
 .txtarea-left{float:left; padding-left:68px; padding-right:20px; max-width:482px; min-width:412px; text-align:left; }
 .txtarea-right{float:right; margin-right:88px; padding-right:68px; padding-left:12px;  max-width:482px; min-width:412px;}
@@ -191,6 +186,7 @@ a{color:#ea3340;text-decoration:none;outline:none;transition:all 0.3s; -webkit-t
 .items-list li dl dt h4{ line-height:30px; color:#121212;}
 .items-list li dl dt h4 span{display:block; line-height:20px; color:#888; }
 .items-list li dl dd{line-height:24px; height:72px; overflow:hidden; color:#666; text-align:left; }
+/*
 .items-list li dl dt.item-icons-01{background:url(../images/items_icon_01.png) no-repeat left center; background-size:78px; }
 .items-list li dl dt.item-icons-02{background:url(../images/items_icon_02.png) no-repeat left center; background-size:78px; }
 .items-list li dl dt.item-icons-03{background:url(../images/items_icon_03.png) no-repeat left center; background-size:78px; }
@@ -203,6 +199,7 @@ a{color:#ea3340;text-decoration:none;outline:none;transition:all 0.3s; -webkit-t
 .items-list li dl dt.item-icons-10{background:url(../images/items_icon_10.png) no-repeat left center; background-size:78px; }
 .items-list li dl dt.item-icons-11{background:url(../images/items_icon_11.png) no-repeat left center; background-size:78px; }
 .items-list li dl dt.item-icons-12{background:url(../images/items_icon_12.png) no-repeat left center; background-size:78px; }
+*/
 
 .Ued-abtdiv{text-align:center; background:url(../images/img_abt.jpg) no-repeat center; background-size:cover; background-attachment:fixed; }
 .Ued-abtdiv h3{margin:0 0 20px; color:#fff;}
@@ -221,7 +218,7 @@ a{color:#ea3340;text-decoration:none;outline:none;transition:all 0.3s; -webkit-t
 
 /*cases slider style*/
 #Slider-case .slick {margin: 0 auto; height:420px;  width:100%; min-width:1024px;}
-#Slider-case .slick div.slidbox{ height:420px; background-repeat:none; background-position:center; background-size:cover; }
+#Slider-case .slick div.slidbox{ height:420px; background-repeat:no-repeat; background-position:center; background-size:cover; }
 #Slider-case .slick div.slidbox div.container{display:table; height:100%;}
 #Slider-case .slick-prev:before, .slick-next:before { position: absolute; left: 0; top: 1px; color: #ccc;}
 #Slider-case .slick-prev { display:none; left: -35px;}
@@ -238,7 +235,7 @@ a{color:#ea3340;text-decoration:none;outline:none;transition:all 0.3s; -webkit-t
 
 #UedCases .Ued-case{padding-top:48px;}
 /* data */
-.Ued-data{text-align:center; background:url(bg_data.jpg)/*tpa=http://www.liumai.net/custom/css/images/bg_data.jpg*/ no-repeat center; background-size:cover; background-attachment:fixed; }
+.Ued-data{text-align:center; background:url(bg_data.jpg) no-repeat center; background-size:cover; background-attachment:fixed; }
 .data-list{overflow:hidden;}
 .data-list li{float:left; width:25%; padding:20px; color:#f0f0f0;}
 .data-list li span{margin:0 auto 10px; display:block; width:120px; height:120px; line-height:120px; color:#fff; border:2px solid #ddd; border-radius:60px; background:rgba(0,0,0,.34); }
@@ -305,19 +302,6 @@ a{color:#ea3340;text-decoration:none;outline:none;transition:all 0.3s; -webkit-t
 .job-list dl dt h4 span{display:block; line-height:20px; color:#888; }
 .job-list dl dd{line-height:24px; color:#666; text-align:left; width:70%;}
 
-.job-list dl dt.item-icons-01{background:url(items_icon_01.png)/*tpa=http://www.liumai.net/custom/css/images/items_icon_01.png*/ no-repeat left center; background-size:78px; }
-.job-list dl dt.item-icons-02{background:url(items_icon_02.png)/*tpa=http://www.liumai.net/custom/css/images/items_icon_02.png*/ no-repeat left center; background-size:78px; }
-.job-list dl dt.item-icons-03{background:url(items_icon_03.png)/*tpa=http://www.liumai.net/custom/css/images/items_icon_03.png*/ no-repeat left center; background-size:78px; }
-.job-list dl dt.item-icons-04{background:url(items_icon_04.png)/*tpa=http://www.liumai.net/custom/css/images/items_icon_04.png*/ no-repeat left center; background-size:78px; }
-.job-list dl dt.item-icons-05{background:url(items_icon_05.png)/*tpa=http://www.liumai.net/custom/css/images/items_icon_05.png*/ no-repeat left center; background-size:78px; }
-.job-list dl dt.item-icons-06{background:url(items_icon_06.png)/*tpa=http://www.liumai.net/custom/css/images/items_icon_06.png*/ no-repeat left center; background-size:78px; }
-.job-list dl dt.item-icons-07{background:url(items_icon_07.png)/*tpa=http://www.liumai.net/custom/css/images/items_icon_07.png*/ no-repeat left center; background-size:78px; }
-.job-list dl dt.item-icons-08{background:url(items_icon_08.png)/*tpa=http://www.liumai.net/custom/css/images/items_icon_08.png*/ no-repeat left center; background-size:78px; }
-.job-list dl dt.item-icons-09{background:url(items_icon_09.png)/*tpa=http://www.liumai.net/custom/css/images/items_icon_09.png*/ no-repeat left center; background-size:78px; }
-.job-list dl dt.item-icons-10{background:url(items_icon_10.png)/*tpa=http://www.liumai.net/custom/css/images/items_icon_10.png*/ no-repeat left center; background-size:78px; }
-.job-list dl dt.item-icons-11{background:url(items_icon_11.png)/*tpa=http://www.liumai.net/custom/css/images/items_icon_11.png*/ no-repeat left center; background-size:78px; }
-.job-list dl dt.item-icons-12{background:url(items_icon_12.png)/*tpa=http://www.liumai.net/custom/css/images/items_icon_12.png*/ no-repeat left center; background-size:78px; }
-
 .job-list h5{margin:20px 0 0; line-height:1.75; color:#121212;}
 .job-list ol{list-style-type:decimal; padding-left:20px; color:#666; margin:0 0 20px;}
 .job-list ol li{margin:10px 0 0; text-align:justify;}
@@ -340,9 +324,10 @@ a{color:#ea3340;text-decoration:none;outline:none;transition:all 0.3s; -webkit-t
 .case-example-txt p.pcenter{text-align:center;padding:20px;}
 .case-example-txt a.go-sitelink,.case-example-txt a.go-sitelink:hover{position:relative; margin:20px auto; display:inline-block; padding:0 60px; line-height:50px; font-size:16px; color:#fff; border:1px solid #fff; border-radius:4px; }
 .case-example-txt a.go-sitelink i{position:absolute; left:15px; top:10px; display:block; width:30px; height:30px; }
-.case-example-txt a.go-sitelink i.apple{background:url(apple.png)/*tpa=http://www.liumai.net/custom/css/images/apple.png*/ no-repeat center; background-size:cover;}
-.case-example-txt a.go-sitelink i.android{background:url(android.png)/*tpa=http://www.liumai.net/custom/css/images/android.png*/ no-repeat center;background-size:cover;}
-
+/*
+.case-example-txt a.go-sitelink i.apple{background:url(apple.png) no-repeat center; background-size:cover;}
+.case-example-txt a.go-sitelink i.android{background:url(android.png) no-repeat center;background-size:cover;}
+*/
 
 /*case detail*/
 
@@ -452,4 +437,36 @@ a{color:#ea3340;text-decoration:none;outline:none;transition:all 0.3s; -webkit-t
 .item-tags
 {
     font-size: 10px;
+}
+
+
+/*article*/
+
+.mainNews{
+    position: relative;
+    width: 100%;
+    height: auto;
+    margin: 0 auto;
+    overflow: hidden;
+    z-index: 5;
+    font-family: 'Helvetica Neue',Helvetica,STHeiti,'Microsoft YaHei',Arial,Verdana,sans-serif;
+
+}
+.fn-left{ float: left}
+.fn-right{float: right}
+.article{
+    padding-bottom: 20px;
+}
+.article .article-head{
+    width: 100%;
+    height: 40px;
+    line-height: 40px;
+    margin: 0 auto;
+    position: relative;
+}
+.article .article-head span ,.article .article-head span a{
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    text-decoration: none;
+    color: #555;
+    font-size: 12px;
 }

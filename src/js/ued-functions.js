@@ -67,7 +67,5 @@ $(function(){
 		window.onload = function(){
 	    	aload();
 	    }
-		
-		
 
 });

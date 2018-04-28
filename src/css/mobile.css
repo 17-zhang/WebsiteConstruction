@@ -33,7 +33,7 @@ h1, h2, h3, h4, h5, h6{margin:0 0 .12rem; font-size:.14rem; }
 
 /* header*/
 .Ued-header{padding-top:10px; padding-bottom:10px; height:60px;}
-.Ued-header h1 a.logo{width:40px; height:40px; background-size:40px 40px;}
+.Ued-header h1 a.logo{width:235px; height:44px; background-size:235px 44px;}
 .Ued-header ul#nav{display:none;}
 .Ued-header-scroll{padding-top:10px; padding-bottom:10px; height:60px;background:rgba(255,255,255,.96);}
 .Ued-header-scroll h1 a.logo{display:block; width:235px; height:44px; text-indent:-9999px; background:url(../images/logo-h44.png) no-repeat center; background-size:235px 44px;}
@@ -63,7 +63,6 @@ h1, h2, h3, h4, h5, h6{margin:0 0 .12rem; font-size:.14rem; }
 .footer-nav li{width:100%; padding:0;}
 .footer-nav li a{line-height:.5rem; font-size:.16rem; }
 .footer-nav li a:hover{text-decoration:none; color:#ccc;}
-.logo-en{margin:.3rem 0 .12rem; display:block; width:238px; height:18px; background:url(logo_en_2x.png) no-repeat center top; background-size:238px 18px;}
 .fr{float:left;}
 .tright{text-align:left;}
 .statement{clear:both; padding:.12rem; line-height:20px; font-size:.12rem; text-align:left; color:#fff; background:#8a8a8a;}
