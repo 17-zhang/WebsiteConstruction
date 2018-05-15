@@ -53,7 +53,7 @@ a{color:#ea3340;text-decoration:none;outline:none;transition:all 0.3s; -webkit-t
 /* Btn css end */
 /********Layout css********/
 /* comm css */
-.Ued-warp{margin:0 auto; width:100%; height:100%;}
+.Ued-warp{margin:0 auto; width:100%; height:auto;}
 .container{margin:0 auto; padding:0 12px; max-width:1164px; min-width:1024px;}
 .Ued-case,.Ued-index-contact,.Ued-clients,.Ued-friends,.Ued-items-list,.Ued-abtdiv,.Ued-gettouch,.Ued-about,.Ued-data,.Ued-space,.Ued-team,.Ued-job{width:100%; min-width:1024px; padding:88px 0;}
 .bg-white{background-color:#ffffff;}
@@ -285,10 +285,12 @@ a{color:#ea3340;text-decoration:none;outline:none;transition:all 0.3s; -webkit-t
 .gallery-btn {background-color: transparent;margin-top: 20px;color: #46a1b4;border-radius: 0px;font-size: 16px;transition: all 0.3s ease-in;padding: 13px 20px;border-color: #46a1b4;margin: 0px 5px;}
 .gallery-btn:hover {background-color: #46a1b4;color: #fff;border-color: #3A90CD;}
 .isotope {margin-top: 100px;}
+/*
 .element-item:hover img, .element-item:hover .item-title, .element-item:hover .item-tags {-webkit-transform: translate3d(0,0,0);transform: translate3d(0,0,0);}
+*/
 .element-item:hover img, .element-item:hover .item-desc, .element-item:hover .item-title, .element-item:hover .item-tags {opacity: 1;}
 .element-item img {position: relative;margin-bottom: 10px;display: block;min-height: 100%;opacity: 0.8;width: calc(100% + 50px);opacity: 0.7;-webkit-transition: opacity 0.35s, -webkit-transform 0.35s;-moz-transition: opacity 0.35s, -webkit-transform 0.35s;transition: opacity 0.35s, transform 0.35s;-webkit-transform: translate3d(-40px,0, 0);-moz-transform: translate3d(-40px,0, 0);transform: translate3d(-40px,0,0);border: 2px solid #d3d3d3 !important;}
-.element-item {position: relative;z-index: 1;display: inline-block;overflow: hidden; /*margin: -0.135em;*/text-align: center;cursor: pointer;}
+.element-item {float:left; position: relative;z-index: 1;display: inline-block;overflow: hidden; /*margin: -0.135em;*/text-align: center;cursor: pointer;}
 .item-desc {top: auto;bottom: 10px;height: 48%;text-align: left;position: absolute;color: #000;font-size: 1.25em;-webkit-backface-visibility: hidden;backface-visibility: hidden;opacity: 0;background-color: rgba(96, 130, 163, 0.86);width: 72%;padding-left: 20px;}
 .item-tags, .item-title {color: rgba(255, 255, 255, 0.91);opacity: 0;-webkit-transition: opacity 0.2s, -webkit-transform 0.35s;transition: opacity 0.2s, transform 0.35s;-webkit-transform: translate3d(0,40px,0);transform: translate3d(0,40px,0);}
 .item-tags {font-size: 10px;}

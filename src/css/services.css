@@ -44,7 +44,7 @@
 .main-title {background-color: rgb(47, 79, 79);display: inline-block;padding: 23px 70px;float: right;}
 .sub-title {padding: 30px;float: right;background-color: darkslategrey;}
 .doctor-list {padding-top: 100px;}
-.doctor-meta {margin: 100px 0px 70px 0px;padding: 120px 35px 36px;border: 1px solid rgba(59, 77, 116, 0.29);background-color: rgba(92, 145, 216, 0.27);position: relative;}
+.doctor-meta {height: 370px; margin: 100px 0px 70px 0px;padding: 120px 35px 36px;border: 1px solid rgba(59, 77, 116, 0.29);background-color: rgba(92, 145, 216, 0.27);position: relative;}
 .doctor-meta .doctor-img {width: 200px;height: 200px;position: absolute;top: -100px;left: 50%;margin-left: -95px;border: 2px solid #c6c6c6;-webkit-border-radius: 50%;-moz-border-radius: 50%;border-radius: 50%;overflow: hidden;}
 .doctor-meta .doctor-img img {position: relative;-webkit-border-radius: 50%;-moz-border-radius: 50%;border-radius: 50%;}
 .doctor-info .doctor-name {margin-top: 10px;letter-spacing: 1px;font-size: 16px;text-transform: uppercase;margin-bottom: 5px;display: block;font-weight: 500;font-family: 'Roboto', sans-serif;}
