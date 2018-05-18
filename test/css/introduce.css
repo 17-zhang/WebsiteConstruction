@@ -1,0 +1,23 @@
+
+/* ========================================= 服务中心 ============================================ */
+
+/*service abt*/
+.Ued-sitem{height:520px;min-width:1024px;}
+.sitem-txt{float:left; width:50%; height:520px; padding:88px 0;}
+.sitem-txt h3{margin:0 0 20px; color:#121212;}
+.sitem-txt h3 span{display:block; color:#888;}
+.sitem-txt h3 i{margin:20px 0; display:block; width:50px; padding-top:1px; background:#ea3340;}
+.sitem-txt p{color:#666;}
+.sitem-img{float:left; width:50%; height:520px;}
+.img-ue{background:url(../img_ue.jpg) no-repeat right center; background-size:cover;}
+.img-ui{background:url(../img_ui.jpg) no-repeat left center; background-size:cover;}
+.img-dev{background:url(../img_dev.jpg) no-repeat center; background-size:cover;}
+
+.txtarea-left{float:left; padding-left:68px; padding-right:20px; max-width:482px; min-width:412px; text-align:left; }
+.txtarea-right{float:right; margin-right:88px; padding-right:68px; padding-left:12px;  max-width:482px; min-width:412px;}
+
+.Ued-abtdiv{text-align:center; background:url(../img_abt.jpg) no-repeat center; background-size:cover; background-attachment:fixed; }
+.Ued-abtdiv h3{margin:0 0 20px; color:#fff;}
+.Ued-abtdiv p{margin:0 0 20px; color:#fff;}
+.Ued-abtdiv a{color:#fff;}
+.Ued-abtdiv a:hover{color:#ea3340; text-decoration:none;}

@@ -1,11 +1,11 @@
 
 /* ========================================= 服务中心 ============================================ */
 .special-service h2 span {background: white;padding-right: 10px;}
-.special-service h2 {background: url("../images/services/title-bg.png") repeat-x scroll 0 13px rgba(0, 0, 0, 0);margin-bottom: 10px;margin-top: 0;}
+.special-service h2 {background: url("../../static/services/title-bg.png") repeat-x scroll 0 13px rgba(0, 0, 0, 0);margin-bottom: 10px;margin-top: 0;}
 .special-service h3{margin: 0 0 20px;color: #121212;}
 .special-service h3 span{display: block;color: #888;}
 .special-service h3 i{margin: 20px 0;display: block;width: 50px;padding-top: 1px;background: #ea3340;}
-.service-title {background: url(../images/services/gradient-blue-computer.jpg);background-size: cover;vertical-align: middle;background-position: center;color: #F0FEFF;}
+.service-title {background: url(../../static/services/gradient-blue-computer.jpg);background-size: cover;vertical-align: middle;background-position: center;color: #F0FEFF;}
 .service-title .headline {font-size: 70px;word-spacing: 10px;}
 .service-wrapper { /*background-color: rgba(45, 53, 56, 0.28);*/background-color: rgba(70, 161, 180, 0.62);padding: 78px 0px;margin-top: 65px;}
 .service {padding: 40px 20px;transition: all 0.5s ease 0s;}
@@ -22,7 +22,7 @@
 .service-item-new img { /* margin-bottom: 30px;*/padding-left: 2px;}
 .service-item-new h3 {color: darkcyan;margin-top: 0px;}
 .service-item-new p {line-height: 25px;padding: 10px 0px;}
-.special-service h2 {background: url(../images/services/title-bg.png) repeat-x scroll 0 13px rgba(0, 0, 0, 0);margin-bottom: 10px;margin-top: 0;}
+.special-service h2 {background: url(../../static/services/title-bg.png) repeat-x scroll 0 13px rgba(0, 0, 0, 0);margin-bottom: 10px;margin-top: 0;}
 .sub-headline {padding: 15px 0px 40px 0px;font-size: 24px;}
 .headline {padding-top: 45px;font-size: 45px;}
 .service-rm-btn {background-color: transparent;color: #46a1b4;border-radius: 0px;font-size: 15px;transition: all 0.3s ease-in;padding: 5px 12px;margin: 4px 0px 0px 5px;border-color: #46a1b4;}
@@ -36,7 +36,7 @@
 /* ========================================= 3. Doctor============================================ */
 /* ------------------------------------------  3.1 doctor-list --------------------------------- */
 .team-button {margin-top: -60px;}
-#starting {background: url(../images/services/doctors-img.jpg);background-repeat: no-repeat;background-size: cover;}
+#starting {background: url(../../static/services/doctors-img.jpg);background-repeat: no-repeat;background-size: cover;}
 @media (min-width:1100px){
     .starting-wrapper {height: 500px;}
 }
@@ -52,7 +52,7 @@
 .doctor-info .doctor-des {margin-top: 20px;margin-bottom: 10px;display: block;}
 .doctor-info .doctor-social .online-contact a {width: 32px;height: 32px;border-radius: 16px;background: cadetblue;float: left;color: white;padding-top: 6px;padding-left: 2px;}
 /* -------------------------------------- job --------------------------------------------- */
-#job {background: url(../images/services/ridgeviewmedicalclinic.jpg) 50% 0 no-repeat fixed;width: 100%;background-size: cover;margin-top: 20px;color: white;}
+#job {background: url(../../static/services/ridgeviewmedicalclinic.jpg) 50% 0 no-repeat fixed;width: 100%;background-size: cover;margin-top: 20px;color: white;}
 .job-wrapper {background-color: rgba(0, 0, 0, 0.87);padding: 100px 0;}
 #job h2 {padding-top: 11px;}
 #job h4 {line-height: 30px;padding: 20px 0px 10px 0px;}

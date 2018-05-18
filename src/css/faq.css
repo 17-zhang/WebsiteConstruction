@@ -5,6 +5,7 @@
 {
     /*margin-top: 80px;*/
     padding: 15px 10px;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
 
 
@@ -67,4 +68,92 @@
     display: none;
     padding: 1.5em;
     background: #ffffff;
+}
+
+
+/* -------------------------------------------Sidebar------------------------------------------- */
+
+.widget h4{margin: 0 0 20px;color: #121212;font-weight: 200;}
+.widget h4 span{display: block;color: #888;}
+.widget h4 i{margin: 10px 0;display: block;width: 50px;padding-top: 1px;background: #ea3340;}
+
+
+.blog-content aside .widget, .faq-content aside .widget
+{
+    margin-bottom: 40px;
+    margin-right: 30px;
+}
+/*.widget h4
+{
+   !* background: url("../images/title-bg.png") repeat-x scroll 0 4px rgba(0, 0, 0, 0);*!
+    font-weight: bold;
+    margin-bottom: 10px;
+    margin-top: 0;
+}*/
+.widget.widget_iw_last_posts h5
+{
+    margin-bottom: 5px;
+    font-weight: 400;
+}
+.widget h4 span, .special-service h2 span
+{
+    padding-right: 10px;
+    font-size: 18px;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+.widget h5
+{
+    text-transform: none;
+    font-size: 14px;
+    margin-top: 10px;
+}
+.widget ul
+{
+    padding-left: 0;
+    list-style: none;
+}
+.widget ul li
+{
+    border-bottom: 1px solid #f0f0f0;
+    -webkit-transition: all 0.2s ease-in-out;
+    transition: all 0.2s ease-in-out;
+    list-style: none;
+    display: block;
+    padding: 10px 20px 10px 15px;
+    position: relative;
+}
+.widget ul li a{
+    color: #121212;
+    font-size: 14px;
+}
+
+.widget ul li:hover
+{
+    background: #ffffff;
+    padding-left: 10px;
+}
+.widget ul li:hover a
+{
+    text-decoration: none;
+}
+/*.widget ul li:before
+{
+    color: #646464;
+    !*content: "\f0da";*!
+    font-family: FontAwesome;
+    position: absolute;
+    right: 5px;
+    top: 12px;
+    font-size: 11px;
+    -webkit-transition: all 0.2s ease-in-out;
+    transition: all 0.2s ease-in-out;
+}*/
+.widget.widget_tag_cloud .tagcloud a
+{
+    background-color: #eaeaea;
+    border: 1px solid #f3f3f3;
+    padding: 5px 10px;
+    margin: 0 3px 8px 0;
+    font-size: 14px !important;
+    display: inline-block;
 }

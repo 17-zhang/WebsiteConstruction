@@ -181,6 +181,10 @@ h1, h2, h3, h4, h5, h6{margin:0 0 .12rem; font-size:.14rem; }
 .spbox-row-box{float:left; width:50%; height:auto; overflow:hidden;}
 .space-box img{display:block; width:100%; height:auto;}
 
+    /* team list */
+    .Ued-team .container{padding:0;}
+    .Ued-team .container p{padding:0 .12rem;}
+
 /* contact */
 .Ued-contact{min-width:100%;}
 .contact-ways li{float:left; width:100%; height:auto;  border-left:0px; border-bottom:1px solid #ddd;}

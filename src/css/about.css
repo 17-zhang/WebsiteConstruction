@@ -1,0 +1,39 @@
+
+/* data */
+.Ued-data{text-align:center; background:url(../images/about/bg_data.jpg) no-repeat center; background-size:cover; background-attachment:fixed; }
+.data-list{overflow:hidden;}
+.data-list li{float:left; width:25%; padding:20px; color:#f0f0f0;}
+.data-list li span{margin:0 auto 10px; display:block; width:120px; height:120px; line-height:120px; color:#fff; border:2px solid #ddd; border-radius:60px; background:rgba(0,0,0,.34); }
+
+/* about txt*/
+.Ued-about h3{margin:0 0 20px; text-align:center;}
+.Ued-about p{margin:0 auto 20px; width:80%; line-height:1.75; text-align:left;color:#666;text-align:justify;}
+/* space */
+.Ued-space{color:#888;}
+.space-box{margin:40px 0 0; width:100%; overflow:hidden;}
+.spbox{float:left; width:50%; height:570px; overflow:hidden;}
+.spbox-row{height:285px;width:100%; overflow:hidden;}
+.spbox-row-box{float:left; width:50%; height:285px; overflow:hidden;}
+.space-box{overflow:hidden;}
+.space-box a img{-webkit-transition: all 0.3s ease-in-out;-moz-transition: all 0.3s ease-in-out;transition: all 0.3s ease-in-out;}
+.space-box a:hover img{transform: scale(1.2) rotate(0deg);}
+.space-box img{display:block; width:100%; height:100%;}
+
+
+/* team list */
+.Ued-team{color:#888;}
+.team-list{margin:40px 0 0; width:100%; overflow:hidden;}
+.team-list li{float:left; width:25%; padding:20px 0; text-align:center; font-size:14px; color:#666; line-height:30px;}
+.team-list li img{display:block; margin:0 auto 10px; width:144px; height:144px; border-radius:72px; }
+.team-list li span label{display:block; font-size:18px; color:#121212;}
+.team-list li a.join-link{display:block; margin:0 auto 10px; width:144px; height:144px;  border-radius:72px; background:url(join_add.png)/*tpa=http://www.liumai.net/custom/css/images/join_add.png*/ #ccc no-repeat center; background-size:44px 44px;}
+
+
+.doctor-list {padding-top: 100px;}
+.doctor-meta {height: 370px; margin: 100px 0px 70px 0px;padding: 120px 35px 36px;border: 1px solid rgba(59, 77, 116, 0.29);background-color: rgba(92, 145, 216, 0.27);position: relative;}
+.doctor-meta .doctor-img {width: 200px;height: 200px;position: absolute;top: -100px;left: 50%;margin-left: -95px;border: 2px solid #c6c6c6;-webkit-border-radius: 50%;-moz-border-radius: 50%;border-radius: 50%;overflow: hidden;}
+.doctor-meta .doctor-img img {position: relative;-webkit-border-radius: 50%;-moz-border-radius: 50%;border-radius: 50%;}
+.doctor-info .doctor-name {margin-top: 10px;letter-spacing: 1px;font-size: 16px;text-transform: uppercase;margin-bottom: 5px;display: block;font-weight: 500;font-family: 'Roboto', sans-serif;}
+.doctor-info .position {font-size: 12px;text-transform: uppercase;display: block;letter-spacing: 1px;}
+.doctor-info .doctor-des {margin-top: 20px;margin-bottom: 10px;display: block;}
+.doctor-info .doctor-social .online-contact a {width: 32px;height: 32px;border-radius: 16px;background: cadetblue;float: left;color: white;padding-top: 6px;padding-left: 2px;}

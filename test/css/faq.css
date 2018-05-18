@@ -1,0 +1,70 @@
+/* ========= faq =========== */
+
+
+.faq-content
+{
+    /*margin-top: 80px;*/
+    padding: 15px 10px;
+}
+
+
+.faq-c {
+    border-bottom: 1px dotted #ccc;
+    padding: 1em 0;
+}
+
+.faq-t {
+    line-height: 1.5em;
+    color: #aaa;
+    font-family: 'Helvetica Neue',Helvetica,STHeiti,'Microsoft YaHei',Arial,Verdana,sans-serif;
+    float:left;
+    font-weight: 700;
+    padding-right: 0.62em;
+    -webkit-transition: all 200ms;
+    -moz-transition: all 200ms;
+    transition: all 200ms;
+}
+
+.faq-o {
+    transform: rotate(-45deg);
+    transform-origin: 50% 50%;
+    -ms-transform: rotate(-45deg);
+    -ms-transform-origin: 50% 50%;
+    -webkit-transform: rotate(-45deg);
+    -webkit-transform-origin: 50% 50%;
+    -webkit-transition: all 200ms;
+    -moz-transition: all 200ms;
+    transition: all 200ms;
+    margin-top: -5px;
+}
+
+.faq-q {
+   /* fonts-family: 'Helvetica Neue',Helvetica,STHeiti,'Microsoft YaHei',Arial,Verdana,sans-serif;*/
+    cursor: pointer;
+  /*  fonts-size: 1.25em;*/
+    background: rgba(249, 249, 249, 0.5);
+    /*fonts-weight: 100;*/
+    padding: 16px;
+    -webkit-transition: all 0.3s ease-in-out;
+    -moz-transition: all 0.3s ease-in-out;
+    -ms-transition: all 0.3s ease-in-out;
+    -o-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+}
+
+.faq-q:hover {
+    box-shadow: 0 1px 5px 0 #626262;
+    -webkit-transition: all 0.3s ease-in-out;
+    -moz-transition: all 0.3s ease-in-out;
+    -ms-transition: all 0.3s ease-in-out;
+    -o-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+}
+
+.faq-a {
+    clear: both;
+    /*color: #666;*/
+    display: none;
+    padding: 1.5em;
+    background: #ffffff;
+}

@@ -1,0 +1,63 @@
+
+/* ========================================= 服务中心 ============================================ */
+.special-service h2 span {background: white;padding-right: 10px;}
+.special-service h2 {background: url("../images/services/title-bg.png") repeat-x scroll 0 13px rgba(0, 0, 0, 0);margin-bottom: 10px;margin-top: 0;}
+.special-service h3{margin: 0 0 20px;color: #121212;}
+.special-service h3 span{display: block;color: #888;}
+.special-service h3 i{margin: 20px 0;display: block;width: 50px;padding-top: 1px;background: #ea3340;}
+.service-title {background: url(../images/services/gradient-blue-computer.jpg);background-size: cover;vertical-align: middle;background-position: center;color: #F0FEFF;}
+.service-title .headline {font-size: 70px;word-spacing: 10px;}
+.service-wrapper { /*background-color: rgba(45, 53, 56, 0.28);*/background-color: rgba(70, 161, 180, 0.62);padding: 78px 0px;margin-top: 65px;}
+.service {padding: 40px 20px;transition: all 0.5s ease 0s;}
+.featured-service-content {margin: 40px 0px;}
+.service .service-icon i {width: 150px;height: 150px;border-radius: 75px;border: 2px solid #6DBEC2;background: #fff;color: #6DBEC2;padding-top: 38px;transition: all 0.7s ease 0s;}
+.about-service h3 {padding: 12px 0px;color: darkcyan;}
+.about-service p {padding: 0px 10px;}
+.service:hover .service-icon i {color: white;background-color: #6DBEC2;}
+.service:hover .about-service h3 {color: #02A2B6;}
+.special-service {margin-top: 50px;}
+.service-tab {margin-top: 50px;}
+.service-tab a{color: #555;}
+.service-item-new {padding: 10px 0px;}
+.service-item-new img { /* margin-bottom: 30px;*/padding-left: 2px;}
+.service-item-new h3 {color: darkcyan;margin-top: 0px;}
+.service-item-new p {line-height: 25px;padding: 10px 0px;}
+.special-service h2 {background: url(../images/services/title-bg.png) repeat-x scroll 0 13px rgba(0, 0, 0, 0);margin-bottom: 10px;margin-top: 0;}
+.sub-headline {padding: 15px 0px 40px 0px;font-size: 24px;}
+.headline {padding-top: 45px;font-size: 45px;}
+.service-rm-btn {background-color: transparent;color: #46a1b4;border-radius: 0px;font-size: 15px;transition: all 0.3s ease-in;padding: 5px 12px;margin: 4px 0px 0px 5px;border-color: #46a1b4;}
+.service-rm-btn:hover { /* background-color: #46a1b4; */background-color: rgb(0, 139, 168);color: #fff;border-color: #3A90CD;}
+.service-item-content ul li {display: block;}
+.service-item-content ul li{width: 100%;height: 25px;line-height: 25px; /* padding: 5px 5px;*/}
+.service-item-content ul li a{text-decoration: none;color: #555;font-size: 14px;font-family: 'Helvetica Neue',Helvetica,STHeiti,'Microsoft YaHei',Arial,Verdana,sans-serif;}
+.service-item-content ul li a:hover{text-decoration: underline;}
+.service-item-content ul li span{float: right;padding-right: 12px;}
+
+/* ========================================= 3. Doctor============================================ */
+/* ------------------------------------------  3.1 doctor-list --------------------------------- */
+.team-button {margin-top: -60px;}
+#starting {background: url(../images/services/doctors-img.jpg);background-repeat: no-repeat;background-size: cover;}
+@media (min-width:1100px){
+    .starting-wrapper {height: 500px;}
+}
+.starting-wrapper {background-color: rgba(0,0,0,0.17);padding: 208px 0px;color: #fff;}
+.main-title {background-color: rgb(47, 79, 79);display: inline-block;padding: 23px 70px;float: right;}
+.sub-title {padding: 30px;float: right;background-color: darkslategrey;}
+.doctor-list {padding-top: 100px;}
+.doctor-meta {height: 370px; margin: 100px 0px 70px 0px;padding: 120px 35px 36px;border: 1px solid rgba(59, 77, 116, 0.29);background-color: rgba(92, 145, 216, 0.27);position: relative;}
+.doctor-meta .doctor-img {width: 200px;height: 200px;position: absolute;top: -100px;left: 50%;margin-left: -95px;border: 2px solid #c6c6c6;-webkit-border-radius: 50%;-moz-border-radius: 50%;border-radius: 50%;overflow: hidden;}
+.doctor-meta .doctor-img img {position: relative;-webkit-border-radius: 50%;-moz-border-radius: 50%;border-radius: 50%;}
+.doctor-info .doctor-name {margin-top: 10px;letter-spacing: 1px;font-size: 16px;text-transform: uppercase;margin-bottom: 5px;display: block;font-weight: 500;font-family: 'Roboto', sans-serif;}
+.doctor-info .position {font-size: 12px;text-transform: uppercase;display: block;letter-spacing: 1px;}
+.doctor-info .doctor-des {margin-top: 20px;margin-bottom: 10px;display: block;}
+.doctor-info .doctor-social .online-contact a {width: 32px;height: 32px;border-radius: 16px;background: cadetblue;float: left;color: white;padding-top: 6px;padding-left: 2px;}
+/* -------------------------------------- job --------------------------------------------- */
+#job {background: url(../images/services/ridgeviewmedicalclinic.jpg) 50% 0 no-repeat fixed;width: 100%;background-size: cover;margin-top: 20px;color: white;}
+.job-wrapper {background-color: rgba(0, 0, 0, 0.87);padding: 100px 0;}
+#job h2 {padding-top: 11px;}
+#job h4 {line-height: 30px;padding: 20px 0px 10px 0px;}
+.block-image {position: relative;z-index: 99;overflow: hidden;}
+#job .form-control {background-color: rgba(0, 0, 0, 0.45);border-color: #fff;color: #46a1b4;height: 38px;}
+#job .input-group-addon {background-color: transparent;border-color: #fff;color: #fff;}
+#job .input-group {padding: 20px 0px;}
+#job .send {margin-top: 30px;background-color: transparent;border-color: #fff;}
