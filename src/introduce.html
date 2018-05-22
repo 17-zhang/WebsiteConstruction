@@ -65,13 +65,15 @@
     <!--//轮播模块-->
     <!--类目--->
     <div class="Ued-sitem clearfix" id="1">
-        <div class="sitem-img img-ue"></div>
+        <div class="sitem-img img-ue">
+<!--
+            <img class="lazy" width="1024" height="768" data-original="images/introduce/img_ue.jpg" alt="">
+-->
+        </div>
         <div class="sitem-txt">
             <div class="txtarea-left">
-                <h3 class="f32">用户体验策略<span class="f16">User Experience</span><i></i></h3>
-                <p class="f16">专业的流程与丰富的经验，使我们实现了用户体验创新的承诺。
-                    深度用户研究，围绕体验核心解决用户痛点，满足用户需求。
-                    提升产品价值空间，并为企业创造商业机会</p>
+                <h3 class="f32">第三代试管婴儿技术<span class="f16">User Experience</span><i></i></h3>
+                <p class="f16">第三代试管婴儿技术主要是可以进行胚胎着床前遗传学诊断（PGD），除了因男方不育或女方不孕之外，还能将有遗传病的夫妇通过体外受精发育成的胚胎进行筛选，以及选择性别，将没有遗传病基因的胚胎移植到女方的子宫。</p>
             </div>
         </div>
     </div>
@@ -80,20 +82,28 @@
     <div class="Ued-sitem clearfix">
         <div class="sitem-txt">
             <div class="txtarea-right">
-                <h3 class="f32">界面视觉设计<span class="f16">User Interface Design</span><i></i></h3>
-                <p class="f16">我们坚信好的设计不仅仅是为了呈现美观，我们试图创造具有感染力的用户界面，将商业目标、技术实现、情感链接融入设计，务求提高产品价值，为企业创造更多商机</p>
+                <h3 class="f32">冷冻卵子<span class="f16">User Interface Design</span><i></i></h3>
+                <p class="f16">冷冻卵子，又称雪藏卵子，即把取母体健康时的卵子冷冻，阻止卵子随人体衰老，待想生育时取出冷冻的卵子使用即可。如今冷冻卵子已经算不上是什么稀奇事了，众所周知娱乐圈中很多女明星都有过冻卵的经验。王子试管经过多年的发展，可以提供各种血型的精卵银行。</p>
             </div>
         </div>
-        <div class="sitem-img img-ui"></div>
+        <div class="sitem-img img-ui">
+<!--
+            <img class="lazy"  data-original="images/introduce/img_ui.jpg" alt="">
+-->
+        </div>
     </div>
     <!--//类目--->
     <!--类目--->
     <div class="Ued-sitem clearfix" id="3">
-        <div class="sitem-img img-dev"></div>
+        <div class="sitem-img img-dev">
+<!--
+            <img class="lazy"  data-original="images/introduce/img_dev.jpg" alt="">
+-->
+        </div>
         <div class="sitem-txt">
             <div class="txtarea-left">
-                <h3 class="f32">应用程序开发<span class="f16">Application development</span><i></i></h3>
-                <p class="f16">拥有极客精神的开发工程师，采用成熟领先的技术方案，协助客户将项目或产品成功落地实施。以严谨的专业精神，简洁优雅的构建每一行代码，确保项目或产品持续稳定运行</p>
+                <h3 class="f32">辅助生殖<span class="f16">Application development</span><i></i></h3>
+                <p class="f16">代孕妈妈必须轻松、安全地怀孕并生产一个或多个孩子，即有良好的生产记录；代孕公司会预检每一位申请者先前怀孕的记录，并由专业的医生过目，以确认所有怀孕是足月的丶健康的，这样可以尽量避免由于代孕母亲的身体原因造成代孕失败的情况。</p>
             </div>
         </div>
     </div>
@@ -103,11 +113,15 @@
     <div class="Ued-sitem clearfix">
         <div class="sitem-txt">
             <div class="txtarea-right">
-                <h3 class="f32">界面视觉设计<span class="f16">User Interface Design</span><i></i></h3>
-                <p class="f16">我们坚信好的设计不仅仅是为了呈现美观，我们试图创造具有感染力的用户界面，将商业目标、技术实现、情感链接融入设计，务求提高产品价值，为企业创造更多商机</p>
+                <h3 class="f32">孕前检查<span class="f16">User Interface Design</span><i></i></h3>
+                <p class="f16">孕前检查不同于常规体检，主要是针对生殖系统和遗传因素所做的检查，保证生育出健康的婴儿，从而实现优生。夫妻双方同做相关项目的孕前检查，是给孩子一生健康的基本保证。</p>
             </div>
         </div>
-        <div class="sitem-img img-ui"></div>
+        <div class="sitem-img img-ui">
+<!--
+            <img class="lazy"  data-original="images/introduce/img_ui.jpg" style="background: url(images/introduce/img_ui.jpg) no-repeat;background-size: cover" alt="">
+-->
+        </div>
     </div>
     <!--//类目--->
 
@@ -164,8 +178,10 @@
 <script type="text/javascript" charset="utf-8">
     $(function() {
         $(".lazy").lazyload({
-            effect: "fadeIn"  /*淡入*/
-            /* threshold : 180   /!*预加载，在图片距离屏幕200px时提前载入*!/*/
+            effect: "fadeIn",
+            threshold : 200 ,
+            event : "scroll click mouseover",
+            failure_limit : 10
         });
     });
 </script>

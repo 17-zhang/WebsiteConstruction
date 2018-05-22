@@ -321,12 +321,10 @@
 <script type="text/javascript" charset="utf-8">
     $(function() {
         $("img.lazy").lazyload({
-            effect: "fadeIn",  /*淡入*/
-            threshold : 200  , /*预加载，在图片距离屏幕200px时提前载入*/
+            effect: "fadeIn",
+            threshold : 200  ,
             event : "scroll click mouseover",
-            threshold : 100,
             failure_limit : 10
-
         });
     });
 </script>

@@ -337,7 +337,8 @@
                 $("img.lazy").lazyload({
                     effect: "fadeIn" ,
                     event : "scroll click mouseover",
-                    threshold : 100
+                    failure_limit : 10,
+                    threshold : 200
                 });
             });
         </script>
